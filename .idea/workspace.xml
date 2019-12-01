@@ -19,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UMzdeDGRR1TWyAPVJmCK2mUtnz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,9 +31,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts/input" />
+      <recent name="$PROJECT_DIR$/scripts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.Sol1Kt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -43,14 +57,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="1.kts" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script" temporary="true" nameIsGenerated="true">
+    <configuration name="Sol1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="adventofcode2019" />
-      <option name="filePath" value="$PROJECT_DIR$/src/1.kts" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Sol1Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sol1.kts" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode2019" />
+      <option name="filePath" value="$PROJECT_DIR$/scripts/sol1.kts" />
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
       <option name="programParameters" />
       <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/src" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/scripts" />
       <option name="isAlternativeJrePathEnabled" value="false" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -59,12 +86,12 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
-      <option name="filePath" value="$PROJECT_DIR$/src/1.kts" />
+      <option name="filePath" value="$PROJECT_DIR$/scripts/sol1.kts" />
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
       <option name="programParameters" />
       <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/src" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/scripts" />
       <option name="isAlternativeJrePathEnabled" value="false" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -88,7 +115,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin script.1.kts" />
+        <item itemvalue="Kotlin.Sol1Kt" />
+        <item itemvalue="Kotlin script.sol1.kts" />
       </list>
     </recent_temporary>
   </component>
@@ -122,21 +150,29 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="421" y="257" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1575181912624" />
-    <state width="1388" height="217" key="GridCell.Tab.0.bottom" timestamp="1575182047265">
+    <state width="1388" height="217" key="GridCell.Tab.0.bottom" timestamp="1575182811754">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1388" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1575182047265" />
-    <state width="1388" height="217" key="GridCell.Tab.0.center" timestamp="1575182047264">
+    <state width="1388" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1575182811754" />
+    <state width="1388" height="217" key="GridCell.Tab.0.center" timestamp="1575182811753">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1388" height="217" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1575182047264" />
-    <state width="1388" height="217" key="GridCell.Tab.0.left" timestamp="1575182047264">
+    <state width="1388" height="217" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1575182811753" />
+    <state width="1388" height="217" key="GridCell.Tab.0.left" timestamp="1575182811753">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1388" height="217" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1575182047264" />
-    <state width="1388" height="217" key="GridCell.Tab.0.right" timestamp="1575182047265">
+    <state width="1388" height="217" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1575182811753" />
+    <state width="1388" height="217" key="GridCell.Tab.0.right" timestamp="1575182811753">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1388" height="217" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1575182047265" />
+    <state width="1388" height="217" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1575182811753" />
+    <state x="80" y="23" width="1214" height="877" key="SettingsEditor" timestamp="1575183069064">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="80" y="23" width="1214" height="877" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1575183069064" />
+    <state x="343" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1575183101067">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="343" y="255" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1575183101067" />
   </component>
 </project>
