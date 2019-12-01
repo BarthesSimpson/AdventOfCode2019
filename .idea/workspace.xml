@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bec65d88-4aa8-4695-903e-7272c41facde" name="Default Changelist" comment="" />
+    <list default="true" id="bec65d88-4aa8-4695-903e-7272c41facde" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tst/Sol1Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tst/sol1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adventofcode2019.iml" beforeDir="false" afterPath="$PROJECT_DIR$/adventofcode2019.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/1.tst" beforeDir="false" afterPath="$PROJECT_DIR$/input/1.tst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sol1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sol1.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +24,7 @@
         <option value="Kotlin Class" />
         <option value="Kotlin Script" />
         <option value="Kotlin File" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -30,14 +39,26 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/scripts/input" />
       <recent name="$PROJECT_DIR$/scripts" />
@@ -46,6 +67,16 @@
   <component name="RunManager" selected="Kotlin.Sol1Kt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sol1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode2019" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Sol1Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,6 +147,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.Sol1Kt" />
+        <item itemvalue="JUnit.Sol1Test" />
         <item itemvalue="Kotlin script.sol1.kts" />
       </list>
     </recent_temporary>
@@ -150,29 +182,41 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="421" y="257" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1575181912624" />
-    <state width="1388" height="217" key="GridCell.Tab.0.bottom" timestamp="1575182811754">
+    <state width="1388" height="217" key="GridCell.Tab.0.bottom" timestamp="1575184938752">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1388" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1575182811754" />
-    <state width="1388" height="217" key="GridCell.Tab.0.center" timestamp="1575182811753">
+    <state width="1388" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1575184938752" />
+    <state width="1388" height="217" key="GridCell.Tab.0.center" timestamp="1575184938752">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1388" height="217" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1575182811753" />
-    <state width="1388" height="217" key="GridCell.Tab.0.left" timestamp="1575182811753">
+    <state width="1388" height="217" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1575184938752" />
+    <state width="1388" height="217" key="GridCell.Tab.0.left" timestamp="1575184938751">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1388" height="217" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1575182811753" />
-    <state width="1388" height="217" key="GridCell.Tab.0.right" timestamp="1575182811753">
+    <state width="1388" height="217" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1575184938751" />
+    <state width="1388" height="217" key="GridCell.Tab.0.right" timestamp="1575184938752">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1388" height="217" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1575182811753" />
-    <state x="80" y="23" width="1214" height="877" key="SettingsEditor" timestamp="1575183069064">
+    <state width="1388" height="217" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1575184938752" />
+    <state x="80" y="23" width="1214" height="877" key="SettingsEditor" timestamp="1575184565283">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="80" y="23" width="1214" height="877" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1575183069064" />
+    <state x="80" y="23" width="1214" height="877" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1575184565283" />
     <state x="343" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1575183101067">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="343" y="255" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1575183101067" />
+    <state x="340" y="345" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1575184731222">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="340" y="345" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.877@0.23.1440.877" timestamp="1575184731222" />
+    <state x="457" y="151" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1575184746987">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="457" y="151" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.23.1440.877@0.23.1440.877" timestamp="1575184746987" />
+    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1575184531896">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1575184531896" />
   </component>
 </project>

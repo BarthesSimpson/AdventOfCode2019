@@ -7,6 +7,9 @@
       <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-jdk7.jar!/" />
       <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-jdk8.jar!/" />
       <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-script-runtime.jar!/" />
+      <root url="org.jetbrains.kotlin:kotlin-test" />
+      <root url="org.jetbrains.kotlin:kotlin-test-junit" />
+      <root url="org.junit.jupiter:junit-jupiter-api:5.0.0-M2" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
