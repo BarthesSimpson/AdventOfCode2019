@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bec65d88-4aa8-4695-903e-7272c41facde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tst/Sol1Test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tst/sol1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/2.tst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sol2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sol2Part2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tst/Sol2Test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adventofcode2019.iml" beforeDir="false" afterPath="$PROJECT_DIR$/adventofcode2019.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/1.tst" beforeDir="false" afterPath="$PROJECT_DIR$/input/1.tst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sol1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sol1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
       <recent name="$PROJECT_DIR$/scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Sol1Kt">
+  <component name="RunManager" selected="JUnit.Sol2Test.testProcessFile">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -76,6 +75,17 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Sol1Test" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sol2Test.testProcessFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode2019" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Sol2Test" />
+      <option name="METHOD_NAME" value="testProcessFile" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,35 +111,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sol1.kts" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script" temporary="true" nameIsGenerated="true">
+    <configuration name="Sol2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="adventofcode2019" />
-      <option name="filePath" value="$PROJECT_DIR$/scripts/sol1.kts" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/scripts" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
+      <option name="MAIN_CLASS_NAME" value="Sol2Kt" />
       <option name="WORKING_DIRECTORY" />
-      <option name="filePath" value="$PROJECT_DIR$/scripts/sol1.kts" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/scripts" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sol2Part2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode2019" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
+      <option name="MAIN_CLASS_NAME" value="Sol2Part2Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,9 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Sol2Test.testProcessFile" />
+        <item itemvalue="Kotlin.Sol2Part2Kt" />
+        <item itemvalue="Kotlin.Sol2Kt" />
         <item itemvalue="Kotlin.Sol1Kt" />
         <item itemvalue="JUnit.Sol1Test" />
-        <item itemvalue="Kotlin script.sol1.kts" />
       </list>
     </recent_temporary>
   </component>
@@ -182,22 +186,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="421" y="257" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1575181912624" />
-    <state width="1388" height="217" key="GridCell.Tab.0.bottom" timestamp="1575184938752">
+    <state width="1388" height="217" key="GridCell.Tab.0.bottom" timestamp="1575265029932">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1388" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1575184938752" />
-    <state width="1388" height="217" key="GridCell.Tab.0.center" timestamp="1575184938752">
+    <state width="1388" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1575265029932" />
+    <state width="1388" height="217" key="GridCell.Tab.0.center" timestamp="1575265029931">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1388" height="217" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1575184938752" />
-    <state width="1388" height="217" key="GridCell.Tab.0.left" timestamp="1575184938751">
+    <state width="1388" height="217" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1575265029931" />
+    <state width="1388" height="217" key="GridCell.Tab.0.left" timestamp="1575265029931">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1388" height="217" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1575184938751" />
-    <state width="1388" height="217" key="GridCell.Tab.0.right" timestamp="1575184938752">
+    <state width="1388" height="217" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1575265029931" />
+    <state width="1388" height="217" key="GridCell.Tab.0.right" timestamp="1575265029932">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1388" height="217" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1575184938752" />
+    <state width="1388" height="217" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1575265029932" />
     <state x="80" y="23" width="1214" height="877" key="SettingsEditor" timestamp="1575184565283">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -210,10 +214,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="340" y="345" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.877@0.23.1440.877" timestamp="1575184731222" />
-    <state x="457" y="151" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1575184746987">
+    <state x="744" y="142" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1575264881215">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="457" y="151" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.23.1440.877@0.23.1440.877" timestamp="1575184746987" />
+    <state x="744" y="142" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.23.1440.877@0.23.1440.877" timestamp="1575264881215" />
     <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1575184531896">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
